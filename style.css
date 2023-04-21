@@ -26,6 +26,7 @@ header {
   background-color: #222;
   color: #fff;
   padding: 10px;
+  display: flex;
 }
 
 header h1 {
@@ -63,4 +64,15 @@ header h1 {
 
 .articles a:hover {
   background-color: #f1f1f1;
+}
+
+#header-logo {
+  height: 100px;
+}
+
+.h-wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
 }
